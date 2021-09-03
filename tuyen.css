@@ -1,0 +1,124 @@
+
+#menu-text {
+	margin: 0;
+}
+#menu-text {
+	background-color: #5eeb34;
+	text-align: center;
+	padding: 80px;
+	
+}	
+
+nav {
+	background-color: #428df5;
+	overflow: hidden;
+
+}
+nav a {
+	color: white;
+	padding: 14px 20px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+
+}
+nav a.menu-left{
+	float: left;
+}
+nav a.menu-right{
+	float: right;
+}
+nav a:hover {
+	background-color: #f59342;
+	color: black;
+}
+#left-side {
+	flex: 30%;
+	background-color: #f1f1f1;
+	padding: 10px 20px;
+}
+#right-side {
+	flex: 70%;
+	background-color: yellowgreen;
+	padding: 10px 20px;
+}
+#flex-conteiner {
+	display: flex;
+	flex-wrap: nowrap;
+}
+footer {
+	background-color: #428df5;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+}
+footer > a {
+	color: white;
+
+}
+
+/* styling the table*/
+table {
+  		border-collapse: collapse;
+ 	 	width: 60%;
+}
+
+table td, table th {
+					  border: 1px solid #ddd;
+					  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+ }
+
+ .course-item {
+ 		/* width: 33%;
+ 		float: left;*/
+ 		text-align: center;
+ 		flex: 33%;
+ }
+ .course-img {
+ 		width: 90%;
+ }
+#course-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+ 
+.course-title {
+	font-size: 150%;
+	font-weight: bold;
+	padding: 10px 10px 5px 10px;
+}
+.course-desc {
+	margin: 0px 10px 20px 10px;
+}
+
+ @media(max-width: 800px) {
+		#left-side {
+			flex: 100%;
+		}
+		#right-side {
+			flex: 100%;
+		}
+		#flex-conteiner {
+ 	 		flex-wrap: wrap;
+ 		}
+ 		.course-item {
+ 			flex: 50%;
+ 		}
+ 	}
+
+
+ 		
+ 		
+ 	
