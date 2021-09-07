@@ -1,0 +1,151 @@
+
+#menu-text {
+	margin: 0;
+}
+#menu-text {
+	background-color: #32a861;
+	text-align: center;
+	padding: 80px;
+	
+}	
+
+nav {
+	background-color: #32a863;
+	overflow: hidden;
+
+}
+nav a {
+	color: white;
+	padding: 14px 20px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+
+}
+nav a.menu-left{
+	float: left;
+}
+nav a.menu-right{
+	float: right;
+}
+nav a:hover {
+	background-color: #f59342;
+	color: black;
+}
+#left-side {
+	flex: 50%;
+	background-color: #f1f1f1;
+	padding: 10px 10px;
+}
+#right-side {
+	flex: 50%;
+	background-color: #f1f1f1;
+	padding: 10px 10px;
+}
+#flex-conteiner {
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+footer {
+	background-color: #428df5;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+}
+footer > a {
+	color: white;
+
+}
+
+/* styling the table*/
+table {
+  		border-collapse: collapse;
+ 	 	width: 60%;
+}
+
+table td, table th {
+					  border: 1px solid #ddd;
+					  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /*text-align: left;*/
+  background-color: #04AA6D;
+  color: white;
+ }
+
+ .origami-item {
+ 		/* width: 33%;
+ 		float: left;*/
+ 		text-align: center;
+ 		flex: 33%;
+ }
+ .origami-img {
+ 		width: 70%;
+ }
+#origami-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+ 
+.origami-title {
+	font-size: 150%;
+	font-weight: bold;
+	padding: 10px 10px 5px 10px;
+}
+.origami-desc {
+	margin: 0px 10px 20px 10px;
+}
+.quilling-item {
+ 		/* width: 33%;
+ 		float: left;*/
+ 		text-align: center;
+ 		flex: 33%;
+ }
+ .quilling-img {
+ 		width: 70%;
+ }
+#quilling-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+ 
+.quilling-title {
+	font-size: 150%;
+	font-weight: bold;
+	padding: 10px 10px 5px 10px;
+}
+.quilling-desc {
+	margin: 0px 10px 20px 10px;
+}
+ @media(max-width: 800px) {
+		#left-side {
+			flex: 100%;
+		}
+		#right-side {
+			flex: 100%;
+		}
+		#flex-conteiner {
+ 	 		flex-wrap: wrap;
+ 		}
+ 		.origami-item {
+ 			flex: 50%;
+ 		}
+ 		.quilling-item {
+ 			flex: 50%;
+ 		}
+
+ 	}
+
+
+ 		
+ 		
+ 	
+
